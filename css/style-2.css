@@ -1,0 +1,29 @@
+body{
+    background-color:aqua;
+}
+
+heading{
+    margin: top 5px;
+}
+/* .banner-1{
+    /* min-height: 100vh; */
+    /* background: linear-gradient(rgba(59, 250, 81, 0.8),rgba(59, 250, 113, 0.8)), url(../images/image-3.png) no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* z-index: 0; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    
+
+/* .banner::before {
+        content: '';
+        position: absolute;
+        bottom: -25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 70vh solid #fff;
+        width: 120%;
+        border-radius: 50%;
+        z-index: -1;
+} */

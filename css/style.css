@@ -1,0 +1,93 @@
+.container-fluid{
+        /* width: 96%; */
+        background-color: purple;
+        position: fixed;
+        /* top: 2rem; */
+        left: 50%;
+        transform: translateX(-50%);
+        /* border-radius: 5rem; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        z-index: 1000;
+        transition: .2s;
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(59, 250, 81, 0.8),rgba(59, 250, 113, 0.8)), url(../images/image-3.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+    
+}
+.banner::before {
+        content: '';
+        position: absolute;
+        bottom: -25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 70vh solid #fff;
+        width: 120%;
+        border-radius: 50%;
+        z-index: -1;
+}
+/* .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+.box-container .box {
+    height: 20rem;
+    width: 25rem;
+    background: #fff;
+    text-align: center;
+    /* border-radius: 1rem; */
+    box-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 50%);
+    margin: 2rem;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 14rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+/* .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--violet);
+    font-size: 3rem;
+    margin: 2rem 0;
+    transition: .2s;
+} */
+/* .box-container .box {
+    height: 20rem;
+    width: 25rem;
+    background: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 50%);
+    margin: 2rem;
+    cursor: pointer; */
+/* .container-fluid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+
